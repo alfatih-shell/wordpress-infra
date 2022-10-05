@@ -15,6 +15,6 @@ The purpose of this repo for provisioning ec2 instance and wordpress
 * Make sure you have access_key and secret_key for aws and also password for database
 * Make sure you have ansible installed in your local
 * Run this command from your local
-> ANSIBLE_CONFIG=ansible.cfg ansible-playbook playbook.yml --ask-vault-pass -v
+> ANSIBLE_CONFIG=ansible.cfg ansible-playbook playbook.yml --ask-vault-pass --tags create_ec2 -v
 
 
