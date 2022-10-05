@@ -82,7 +82,7 @@
 
       tags: ['never', 'create_ec2']
 
-    - name: Provision instance(s)
+    - name: Provision Wordpress
       block: 
 
       - name: "launching a mysql database"
